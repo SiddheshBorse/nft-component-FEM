@@ -1,0 +1,2 @@
+when you want the text to not wrap you use 
+white-space:nowrap;

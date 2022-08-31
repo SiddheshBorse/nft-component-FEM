@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap');
+
+:root {
+    --Verydarkbluebody: hsl(217, 54%, 11%);
+    --Verydarkbluecard: hsl(216, 50%, 16%);
+    --Verydarkblueline: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Verydarkbluebody);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card {
+    background-color: var(--Verydarkbluecard);
+    display: inline-block;
+    width: 25%;
+    border-radius: 2%;
+    margin-top: 5%;
+}
+
+.card img {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+border-radius: 2%;
+}
+
+.card h1 {
+    color: var(--White);
+    font-size: 1.5rem;
+    margin-left: 5%;
+    font-weight: 400;
+}
+
+.card p {
+    font-size: 1.2rem;
+    color: hsl(216, 20%, 50%);
+    margin: 5%;
+
+}
+
+.details {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.eth {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.eth img {
+    height: 100%;
+    width: auto;
+    margin: 0;
+    margin-left: 20%;
+}
+
+.eth h2 {
+    white-space: nowrap;
+    display: block;
+    color: #08fcfc;
+    font-size: 1rem;
+    margin-left: 10%;
+}
+.time{
+    display: flex;
+    margin-right: 7%;
+
+}
+.time h2{
+    white-space: nowrap;
+    font-size: 1rem;
+    color: #90acdc;
+    font-weight: 300;
+    padding-left: 5%;
+    margin-right: 100%;
+}
+
+.time img {
+    height: 100%;
+    width: auto;
+    
+    margin: 0;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+.line{
+    height: 0.05rem;
+        width: 90%;
+        background-color:hsl(216, 20%, 50%) ;
+        margin-left: 5%;
+        margin-top: 1.5rem;
+    
+}
+.creator{
+    display: flex;
+    margin-bottom: 5%;
+}
+.creator img{
+    height: 10%;
+    width: 10%;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: 5%;
+}
+#credits{
+    font-size: 1rem;
+    margin-left: 0;
+    margin-top: 7%;
+}
+#credits span{
+    color: white;
+}
